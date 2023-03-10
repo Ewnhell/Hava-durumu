@@ -1,0 +1,16 @@
+Bu kod, weather.com'dan Ankara'nın güncel hava durumunu ve tahminini alır ve bir Tkinter penceresinde görüntüler.
+
+İlk olarak, gerekli modülleri, bs4'ten BeautifulSoup'u, istekleri ve Tkinter'ı içe aktarır. Ayrıca PIL kitaplığından ImageTk ve Image'i içe aktarır.
+
+Ardından, hava durumuna bir GET isteği göndererek mevcut hava durumu verilerini alır.
+com ve BeautifulSoup kullanarak ayıklar. Benzer şekilde, sonraki yedi gün için tahmin verilerini alır.
+
+Bundan sonra, belirli bir boyut ve başlığa sahip bir Tkinter penceresi oluşturur ve uygulama için simgeyi ayarlar.
+
+Kod daha sonra mevcut hava durumunu kontrol eder ve tuvalde hava durumuna karşılık gelen bir görüntüyü görüntüler.
+Ayrıca Ankara için geçerli saati, hava durumunu ve sıcaklığı gösterir.
+
+Ayrıca, ilgili gün, hava durumu ve sıcaklıkla birlikte önümüzdeki yedi gün için tahmini görüntüler. Gün, hava durumu ve sıcaklık verileri, BeautifulSoup kullanılarak tahmin verilerinden alınır.
+
+Nihayet,
+hava durumu bilgilerini göstermek için tuval üzerinde metin nesneleri oluşturur.
